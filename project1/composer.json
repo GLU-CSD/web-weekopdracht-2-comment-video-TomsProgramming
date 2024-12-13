@@ -1,0 +1,14 @@
+{
+    "name": "tomti/web-weekopdracht-2-comment-video-toms-programming",
+    "authors": [
+        {
+            "name": "Tom Tiedemann",
+            "email": "tomtiedemann30@gmail.com"
+        }
+    ],
+    "require": {
+        "yohang88/letter-avatar": "^2.3",
+        "nesbot/carbon": "^3.8",
+        "guzzlehttp/guzzle": "^7.9"
+    }
+}

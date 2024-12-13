@@ -1,0 +1,49 @@
+body {
+    
+}
+
+.reactions {
+    display: flex;
+    flex-direction: column;
+    gap: 17.5px;
+    max-width: 600px;
+    padding: 16px;
+}
+
+.reaction {
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+}
+
+.reaction img {
+    width: 30px;
+    height: 30px;
+    margin-top: 2px;
+}
+
+
+.reaction .name-time {
+    display: flex;
+    align-items: baseline;
+    gap: 8px; 
+}
+
+#name {
+    font-weight: bold;
+    margin: 0;
+    color: #333;
+    font-size: 14px;
+}
+
+#time-ago {
+    font-size: 12px;
+    color: #777;
+    margin: 0;
+}
+
+#message {
+    margin: 0;
+    color: #555;
+    font-size: 14px;
+}
